@@ -1,0 +1,108 @@
+/* App.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #121212;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.app {
+  text-align: center;
+  width: 450px;
+}
+
+.logo {
+  color: #24e066;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+nav {
+  margin-bottom: 30px;
+}
+
+nav a {
+  color: #24e066;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.form-container {
+  background: #282828;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+  border: 3px solid #24e066;
+  width: 180%;
+  margin-left: -40%;
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+
+
+form label {
+  display: block;
+  text-align: left;
+  margin-top: 12px;
+  font-size: 20px;
+  color: #b3b3b3;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  background: #333;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+}
+
+form .small-input {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+}
+
+form input:focus {
+  outline: 2px solid #24e066
+}
+
+form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #24e066;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 25px;
+}
+
+form button:hover {
+  background-color: #24e066;
+}
+
+.error {
+  color: #ff4d4d;
+  font-size: 12px;
+  margin-top: 5px;
+}
