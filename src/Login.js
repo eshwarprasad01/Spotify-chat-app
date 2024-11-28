@@ -19,7 +19,7 @@ function Login() {
       const res = await axios.post("https://server-gsw0.onrender.com/auth", data);
       store_username(res.data.username);
       if (res.data.auth) {
-        navigate('/Chat');
+        navigate('/Music');
       } else {
         alert("Invalid Credentials");
         setLoad(false);
